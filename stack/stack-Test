@@ -1,0 +1,51 @@
+Script started on Wed 14 Sep 2016 08:15:42 PM PDT
+]0;gonza437@empress:~/CS311/HWPrograms/forHW1[gonza437@empress forHW1]$ g++ client1.cpp stack.cpp
+
+]0;gonza437@empress:~/CS311/HWPrograms/forHW1[gonza437@empress forHW1]$ ./a.out
+type a postfix expression: 34+
+Your answer: 7
+
+]0;gonza437@empress:~/CS311/HWPrograms/forHW1[gonza437@empress forHW1]$ ./a.out
+type a postfix expression: 345+*
+Your answer: 27
+
+]0;gonza437@empress:~/CS311/HWPrograms/forHW1[gonza437@empress forHW1]$ ./a.out
+type a postfix expression: 722+-
+Your answer: 3
+
+]0;gonza437@empress:~/CS311/HWPrograms/forHW1[gonza437@empress forHW1]$ ./a.out
+type a postfix expression: 34+56++
+Your answer: 18
+
+]0;gonza437@empress:~/CS311/HWPrograms/forHW1[gonza437@empress forHW1]$ ./a.out
+type a postfix expression: 12+34*45+-+
+Your answer: 6
+
+]0;gonza437@empress:~/CS311/HWPrograms/forHW1[gonza437@empress forHW1]$ ./a.out
+type a postfix expression: 123456789101112
+Error: Expression is too long for the stack
+
+]0;gonza437@empress:~/CS311/HWPrograms/forHW1[gonza437@empress forHW1]$ ./a.out
+type a postfix expression: +
+Error: Too few operands/numbers in the expression
+
+]0;gonza437@empress:~/CS311/HWPrograms/forHW1[gonza437@empress forHW1]$ ./a.out
+type a postfix expression: 3+
+Error: Too few operands/numbers in the expression
+
+]0;gonza437@empress:~/CS311/HWPrograms/forHW1[gonza437@empress forHW1]$ ./a.out
+type a postfix expression: 3#
+Error: Invalid item #
+
+]0;gonza437@empress:~/CS311/HWPrograms/forHW1[gonza437@empress forHW1]$ ./a.out
+type a postfix expression: 2345+
+Your answer: 9
+However your postfix expression is incomplete
+Remaining data
+3
+2
+--------------
+]0;gonza437@empress:~/CS311/HWPrograms/forHW1[gonza437@empress forHW1]$ exit
+exit
+
+Script done on Wed 14 Sep 2016 08:21:32 PM PDT
