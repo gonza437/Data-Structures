@@ -1,0 +1,44 @@
+Script started on Wed 14 Sep 2016 08:07:16 PM PDT
+]0;gonza437@empress:~/CS311/HWPrograms/forHW1[gonza437@empress forHW1]$ g++ client2.cpp queue.cpp
+]0;gonza437@empress:~/CS311/HWPrograms/forHW1[gonza437@empress forHW1]$ ./a.out
+Count = 3  Front = 0  Rear = 2
+[A B C ]
+A
+Count = 5  Front = 1  Rear = 5
+[B C AA AB AC ]
+B
+Count = 7  Front = 2  Rear = 8
+[C AA AB AC BA BB BC ]
+C
+Count = 9  Front = 3  Rear = 11
+[AA AB AC BA BB BC CA CB CC ]
+AA
+Count = 11  Front = 4  Rear = 14
+[AB AC BA BB BC CA CB CC AAA AAB AAC ]
+AB
+Count = 13  Front = 5  Rear = 17
+[AC BA BB BC CA CB CC AAA AAB AAC ABA ABB ABC ]
+AC
+Count = 15  Front = 6  Rear = 20
+[BA BB BC CA CB CC AAA AAB AAC ABA ABB ABC ACA ACB ACC ]
+BA
+Count = 17  Front = 7  Rear = 23
+[BB BC CA CB CC AAA AAB AAC ABA ABB ABC ACA ACB ACC BAA BAB BAC ]
+BB
+Count = 19  Front = 8  Rear = 1
+[BC CA CB CC AAA AAB AAC ABA ABB ABC ACA ACB ACC BAA BAB BAC BBA BBB BBC ]
+BC
+Count = 21  Front = 9  Rear = 4
+[CA CB CC AAA AAB AAC ABA ABB ABC ACA ACB ACC BAA BAB BAC BBA BBB BBC BCA BCB BCC ]
+CA
+Count = 23  Front = 10  Rear = 7
+[CB CC AAA AAB AAC ABA ABB ABC ACA ACB ACC BAA BAB BAC BBA BBB BBC BCA BCB BCC CAA CAB CAC ]
+CB
+Count = 25  Front = 11  Rear = 10
+[CC AAA AAB AAC ABA ABB ABC ACA ACB ACC BAA BAB BAC BBA BBB BBC BCA BCB BCC CAA CAB CAC CBA CBB CBC ]
+CC
+Error: Too many values
+]0;gonza437@empress:~/CS311/HWPrograms/forHW1[gonza437@empress forHW1]$ exit
+exit
+
+Script done on Wed 14 Sep 2016 08:08:14 PM PDT
